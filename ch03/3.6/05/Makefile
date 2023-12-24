@@ -1,5 +1,5 @@
 gcc_options = -std=c++17 -Wall --pedantic-error
-header_file = ../../../util/all.h
+header_file = $(shell echo $${PROJECT_HOME})/util/all.h
 
 program : main.cpp $(header_file) all.h.gch
 	g++ $(gcc_options) -include all.h -o $@ $<
