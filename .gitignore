@@ -2,7 +2,39 @@
 # Created by https://www.toptal.com/developers/gitignore/api/linux,vim,cpp
 # Edit at https://www.toptal.com/developers/gitignore?templates=linux,vim,cpp
 
-#!! ERROR: cpp is undefined. Use list command to see defined gitignore types !!#
+### C++ ###
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
 
 ### Linux ###
 *~
@@ -39,4 +71,4 @@ tags
 # Persistent undo
 [._]*.un~
 
-# End of https://www.toptal.com/developers/gitignore/api/linux,vim,cpp
+# End of https://www.toptal.com/developers/gitignore/api/linux,vim,c++

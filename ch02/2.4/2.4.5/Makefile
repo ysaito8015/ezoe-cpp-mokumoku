@@ -1,0 +1,3 @@
+variable = foobar
+
+target : $(variable)
