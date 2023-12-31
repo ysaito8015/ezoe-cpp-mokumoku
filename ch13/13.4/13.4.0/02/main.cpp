@@ -1,0 +1,6 @@
+namespace ns {
+}
+
+int main()
+{
+}
